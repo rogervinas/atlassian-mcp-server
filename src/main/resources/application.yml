@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: atlassian-mcp-server
+
+server:
+  port: 8888

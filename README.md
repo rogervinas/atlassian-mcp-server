@@ -21,7 +21,7 @@ export ATLASSIAN_TOKEN=xxxx
 ./gradlew bootRun
 ```
 
-Connect your favorite tool to the MCP server at `http://localhost:8888/sse`, for example `mcp.json` configuration file for **VSCode** is:
+Connect your favorite tool to the MCP server at `http://localhost:8888/sse`, for example for **VS Code** follow [Use MCP servers in VS Code](https://code.visualstudio.com/docs/copilot/chat/mcp-servers) and just create a `.vscode/mcp.json` configuration file like this:
 ```json
 {
   "servers": {

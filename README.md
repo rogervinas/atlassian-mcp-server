@@ -2,7 +2,7 @@
 
 If you cannot use the official version at https://www.atlassian.com/platform/remote-mcp-server, you can use this simple custom implementation!
 
-Implemented with [Spring AI](https://spring.io/projects/spring-ai) using [Confluence Cloud API](https://developer.atlassian.com/cloud/confluence/rest/v3/intro/#about) and [Jira Cloud API](https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/#about)
+Implemented with [Spring AI](https://docs.spring.io/spring-ai/reference/index.html) using [Confluence Cloud API](https://developer.atlassian.com/cloud/confluence/rest/v3/intro/#about) and [Jira Cloud API](https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/#about)
 
 ## Requirements
 

@@ -46,7 +46,7 @@ class JiraTool(private val restTemplate: RestTemplate) {
             val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd")
             val fromDateStr = fromDate.format(formatter)
             val toDateStr = toDate.format(formatter)
-            val uri = UriComponentsBuilder.fromUriString("/rest/api/3/search")
+            val uri = UriComponentsBuilder.fromUriString("/rest/api/3/search/jql")
                 .queryParam(
                     "jql",
                     "project=\"$project\" AND created >= \"$fromDateStr\" AND created <= \"$toDateStr\" ORDER BY created ASC"
